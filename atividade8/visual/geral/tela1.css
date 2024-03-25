@@ -1,63 +1,63 @@
 body {
-	background-color:#ffffff;
-	font-family: 'Roboto', sans-
-	serif;
+	background-color: #ffffff;
+	font-family: 'Roboto', sans- serif;
 	margin: 0;
 	padding: 0;
-	background-color:hsl(0, 0%, 100%);
-	}
-	
-	header {
-		text-align: initial;
-		padding: 20 px 0;
-		background-color: hsl(0, 0%, 69%);
-		color: #000000;
-	}
-	
-	#imgs-gap img{
-		background-color: aliceblue;
-		border-radius: 100%;
-		width: 20vmin;
-	}
-	#loading{
-		display: flex;
-		align-items:center;
-		height:33%
-	}
-	#loading-image{
-		height: 50%;
-		width: 100%;
-		background-image: url(../imagem/loading.png)
-	}
-#header-buttons{
-	display: flex;
-	align-items:center;
-	height:3%;
+	background-color: hsl(0, 0%, 100%);
 }
-#header-buttons img{
+
+header {
+	text-align: initial;
+	padding: 20 px 0;
+	background-color: hsl(0, 0%, 69%);
+	color: #000000;
+}
+
+#imgs-gap img {
+	background-color: aliceblue;
+	border-radius: 100%;
+	width: 20vmin;
+}
+
+#loading {
+	display: flex;
+	align-items: center;
+	height: 33%
+}
+
+#loading-image {
+	height: 50%;
+	width: 100%;
+	background-image: url(../imagem/loading.png)
+}
+
+#header-buttons {
+	display: flex;
+	align-items: center;
+	height: 3%;
+}
+
+#header-buttons img {
 	width: 20px;
 }
+
+
 table {
-    width: 17%;
-    border-collapse: collapse;
+	height: 300px;
+	padding: 50px;
+	font-size: 17px;
+	border-collapse: collapse;
 }
 
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
+th,
+td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
-}
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;	
-}
-th {
-    background-color: #f2f2f2;
+	background-color: #f2f2f2;
 }
 
 
@@ -66,11 +66,134 @@ th {
 	width: 800px;
 	object-fit: contain;
 	float: left;
-	}
-	
-	.apresentacao {
+}
+
+.apresentacao {
 	height: 400px;
 	padding: 50px;
 	font-size: 20px;
-	}
+}
+
+.teste{
 	
+	float: right;
+	height: 10px;
+	padding: 10px;
+	font-size: 20px;
+	
+	
+
+}
+hr{
+    height: 15px;
+    border-color:darkorange;
+    background-color: rgb(250, 214, 12);
+}
+
+
+.b-azul{
+    height: 5px;
+    border-color: blue;
+    background-color: mediumblue;
+}
+
+
+table{
+    height: 300px;
+    border-collapse: collapse;
+}
+
+
+td{
+    border: 1px solid black;
+    padding:10px;
+}
+
+
+td.table2{
+    border: 1px solid black;
+    padding:4px;
+}
+
+
+tr.linha1{
+    background-color:rgb(207, 207, 207);
+}
+
+
+tr.linha2{
+    background-color:rgb(182, 208, 255);
+}
+
+
+tr.linha3{
+    background-color:rgb(207, 207, 207);
+}
+
+
+tr.linha4{
+    background-color: rgb(190, 195, 209);
+}
+
+
+tr.linha5{
+    background-color:rgb(182, 208, 255);;
+}
+
+
+td.dado{
+    background-color: rgb(12, 73, 187);
+}
+
+
+td.dado1{
+    background-color: rgb(207, 207, 207);
+}
+
+
+td.dado2{
+    background-color:rgb(190, 195, 209);
+}
+
+
+td.dado3{
+    background-color:rgb(153, 170, 216);
+}
+
+
+#div1, #div2{
+    float: left;
+    margin: 13px;
+}
+
+
+#divA, #divB{
+    float: left;
+    margin: 13px;
+}
+
+
+p.um, p.dois{
+    display: inline;
+}
+p.tres, p.quatro{
+    display: inline;
+}
+p.cinco, p.seis{
+    display: inline;
+}
+p.sete, p.oito{
+    display: inline;
+}
+p.nove, p.dez{
+    display: inline;
+}
+p.onze, p.doze{
+    display: inline;
+}
+p.treze, p.quatorze{
+    display: inline;
+}
+p.quinze, p.dezesseis{
+    display: inline;
+}
